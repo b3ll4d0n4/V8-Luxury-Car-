@@ -1,0 +1,118 @@
+/* Paleta: azul escuro, preto e prata */
+:root {
+--azul: #0a1a2f;
+--prata: #c0c0c0;
+--preto: #000000;
+}
+
+body {
+margin: 0;
+background: var(--preto);
+color: white;
+font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+background: var(--azul);
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1 {
+margin: 0;
+}
+
+nav a {
+color: var(--prata);
+margin-left: 20px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: white;
+}
+
+/* Banner */
+.banner {
+text-align: center;
+padding: 80px 20px;
+background: linear-gradient(to bottom, rgba(10,25,50,0.7), #000);
+}
+
+.banner h2 {
+font-size: 34px;
+}
+
+.banner p {
+font-size: 18px;
+}
+
+/* Modelos */
+.modelos {
+text-align: center;
+padding: 40px 20px;
+}
+
+.carros {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.carro {
+background: #111;
+border: 2px solid var(--prata);
+border-radius: 8px;
+width: 260px;
+padding: 15px;
+}
+
+.carro img {
+width: 100%;
+border-radius: 5px;
+}
+
+.carro h3 {
+margin-top: 10px;
+}
+
+/* História */
+.historia {
+padding: 40px 20px;
+background: #0d0d0d;
+text-align: center;
+}
+
+/* Localização */
+.localizacao {
+padding: 40px 20px;
+text-align: center;
+}
+
+.mapa img {
+width: 80%;
+max-width: 500px;
+border: 3px solid var(--prata);
+border-radius: 5px;
+}
+
+/* Contato */
+.contato {
+background: #111;
+text-align: center;
+padding: 40px 20px;
+}
+
+/* Rodapé */
+footer {
+background: var(--azul);
+text-align: center;
+padding: 15px;
+font-size: 14px;
+margin-top: 30px;
+}
