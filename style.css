@@ -75,6 +75,8 @@ padding: 15px;
 .carro img {
 width: 100%;
 border-radius: 5px;
+height: 300px;
+object-fit: cover;
 }
 
 .carro h3 {
